@@ -9,6 +9,7 @@ const DashboardCSS = {
   display:"flex",
   "flexDirection":"row",
   "flexFlow": " row",
+  overflow: "hidden",
   "width":"100%",
   border:"2px solid #0077ff",
   borderRadius:"6px"

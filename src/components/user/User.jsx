@@ -9,13 +9,14 @@ function User({ firstName, age }) {
       display:"block",
       "padding":"5px",
       "margin":"5px",
-      "color": "#0077ff",
+      "color": "#00487B",
       "border": "2px solid #0077ff",
       "borderRadius": "6px",
       boxSizing: "border-box",
       minWidth: "5px",
       minHeight: "2px",
-      background: "#fffff",
+      background: "#F0F5F7",
+      fontWeight:"700"
       };
      
   return (

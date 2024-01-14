@@ -4,6 +4,8 @@ import Header from "./components/header/Header";
 import UserContainer from "./components/user/UserContainer";
 import TransactoinContainer from "./components/transaction/TransactoinContainer";
 import { CgFormatJustify } from "react-icons/cg";
+import bg from "./bg.svg"
+
 
 const DashboardCSS = {
   display:"flex",
@@ -12,8 +14,8 @@ const DashboardCSS = {
   overflow: "hidden",
   "width":"100%",
   border:"2px solid #0077ff",
-  borderRadius:"6px"
- 
+  borderRadius:"6px",
+  backgroundImage: "url('bg.svg')",
 }
 const buttonCSS={
   "padding":"10px",
@@ -28,7 +30,7 @@ function App() {
     setSidebar((preState)=>!preState)
   }
   return (
-    <>
+    <div style={{ backgroundImage: `url(${bg})` }}>
       <div style={DashboardCSS}>
         <div>
         {
@@ -36,12 +38,12 @@ function App() {
         }
         </div>
         <div>
-          <h1>Admin Dashboard</h1>
+          <h1 style={{color:"white"}}>Admin Dashboard</h1>
           <UserContainer />
           <TransactoinContainer />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

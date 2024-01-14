@@ -15,7 +15,7 @@ const containercss = {
     boxSizing: "border-box",
     "minWidth": "75%",
     "maxHeight": "300px",
-    "background": "#fffff",
+    "background": "#0780D6",
 
 
     
@@ -41,7 +41,7 @@ function UserContainer() {
   return (
   <>
         <div style={containercss}>
-            <h2>Total Users : <span>{limit}</span></h2> 
+            <h2 style={{color:"white"}}>Total Users : <span>{limit}</span></h2> 
             
             {
                userdata?(userdata.map((user)=>(

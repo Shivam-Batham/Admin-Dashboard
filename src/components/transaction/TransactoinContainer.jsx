@@ -13,7 +13,7 @@ const containercss = {
     boxSizing: "border-box",
     minWidth: "75%",
     maxHeight: "300px",
-    background: "#fffff",
+    background: "#0060a4",
   };
 
 function TransactoinContainer() {
@@ -35,7 +35,7 @@ function TransactoinContainer() {
   return (
     <>
         <div style={containercss}>
-            <h2>All Transactions </h2> 
+            <h2 style={{color:"white"}}>All Transactions </h2> 
             
             {
                userdata?(userdata.map((user)=>(

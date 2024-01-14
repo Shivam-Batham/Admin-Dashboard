@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 
@@ -11,7 +12,6 @@ const containercss = {
   boxSizing: "border-box",
   minWidth: "23%",
   minHeight: "700px",
-  background: "#fffff",
   "justifyContent":"center",
   "alignItems":"flex-start",
 };
@@ -37,13 +37,13 @@ const buttoncss={
   "flexFlow": "column wrap",
   "padding":"10px",
   "margin":"1px",
-  "color": "#0077ff",
-  "border": "2px solid #0077ff",
+  "color": "#ffff",
+  "border": "2px solid #004f8f",
   "borderRadius": "6px",
   boxSizing: "border-box",
   minWidth: "100%",
   minHeight: "30px",
-  background: "#fffff",
+  background: "#0780d6",
 }
 
 function Header() {

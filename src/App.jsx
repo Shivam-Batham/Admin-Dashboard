@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import UserContainer from "./components/user/UserContainer";
 import TransactoinContainer from "./components/transaction/TransactoinContainer";
 import { CgFormatJustify } from "react-icons/cg";
-import bg from "./bg.svg"
+import bg from "./assets/bg.svg"
 
 
 const DashboardCSS = {

@@ -1,0 +1,5 @@
+.bg{
+     background: url("./assets/bg.svg");
+    /* background: rgb(147,207,247);
+    background: linear-gradient(90deg, rgba(147,207,247,1) 0%, rgba(7,128,214,1) 56%, rgba(0,81,144,1) 100%); */
+}

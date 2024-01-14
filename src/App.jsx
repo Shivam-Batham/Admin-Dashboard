@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import UserContainer from "./components/user/UserContainer";
 import TransactoinContainer from "./components/transaction/TransactoinContainer";
 import { CgFormatJustify } from "react-icons/cg";
-import bg from "./assets/bg.svg"
+import "./App.css"
 
 
 const DashboardCSS = {
@@ -29,8 +29,9 @@ function App() {
   const handleSidebar =()=>{
     setSidebar((preState)=>!preState)
   }
+  const bgcolor = `https://colorkit.co/palette/b0d6f0-93cff7-5aa8db-0780d6-0060a4-005190/`
   return (
-    <div style={{ backgroundImage: `url(${bg})` }}>
+    <div className="bg">
       <div style={DashboardCSS}>
         <div>
         {
